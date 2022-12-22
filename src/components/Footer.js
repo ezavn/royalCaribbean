@@ -11,23 +11,27 @@ export default function Footer() {
             </div>
             <ul className="font-light text-white mb-[15px] md:mb-[30px]">
               <li>
-                Fanpage:
-                <a href="/"></a>
+                Fanpage:{" "}
+                <a href="https://www.facebook.com/royal.caribbean.saigon/">
+                  royal.caribbean.saigon
+                </a>
               </li>
               <li>
-                Email:
-                <a href="/"></a>
+                Email:{" "}
+                <a href="mailto:info@goldenstartravel.vn">
+                  info@goldenstartravel.vn
+                </a>
               </li>
               <li>
-                Website:
-                <a href="/"></a>
+                Website:{" "}
+                <a href="https://goldenstartravel.vn/">goldenstartravel.vn</a>
               </li>
             </ul>
             <ul className="flex items-center gap-[4px]">
               <li>
                 <a
                   className="w-[40px] h-[40px] bg-[rgba(255,255,255,0.15)] flex items-center justify-center"
-                  href="/"
+                  href="https://www.facebook.com/royal.caribbean.saigon/"
                 >
                   <img srcSet="/icons/facebook-icon.png 2x" alt="" />
                 </a>
