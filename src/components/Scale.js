@@ -6,7 +6,7 @@ export default function Scale() {
     <section>
       <div className="page-container pb-sectionMB md:pb-section">
         <Heading center sup="QUY MÔ SPECTRUM OF THE SEAS">
-          CỰC KỲ LỚN VỚI NHỮNG CON SỐ ẤN TƯỢNG
+          NHỮNG CON SỐ CỰC KỲ ẤN TƯỢNG
         </Heading>
         <div className="mb-[20px] md:mb-0">
           <img srcSet="/images/scale-boat.png 2x" alt="" />
@@ -39,37 +39,36 @@ export default function Scale() {
               <p className="desc">CHIỀU CAO</p>
             </div>
           </div>
-          <div className="scale-item">
+          <div className="scale-item-2">
             <div className="icon">
               <img srcSet="/icons/scale-icon4.png 2x" alt="" />
             </div>
             <div className="content">
-              <p className="num">7000</p>
               <p className="desc">
-                SỨC CHỨA <br /> <span>khách và thủy thủ đoàn</span>
+                SỨC CHỨA <br /> <span className="num">7000</span> <br />
+                <span>khách và thủy thủ đoàn</span>
               </p>
             </div>
           </div>
-          <div className="scale-item">
+          <div className="scale-item-2">
             <div className="icon">
               <img srcSet="/icons/scale-icon5.png 2x" alt="" />
             </div>
             <div className="content">
-              <p className="num">169.379</p>
               <p className="desc">
-                TRỌNG TẢI/<span>Tấn</span>
+                TRỌNG TẢI <br /> <span className="num">169.379</span>{" "}
+                <span>Tấn</span>
               </p>
             </div>
           </div>
-          <div className="scale-item">
+          <div className="scale-item-2">
             <div className="icon">
               <img srcSet="/icons/scale-icon6.png 2x" alt="" />
             </div>
             <div className="content">
-              <p className="num">22</p>
               <p className="desc">
-                TỐC ĐỘ/ <br />
-                <span>hải lý mỗi giờ</span>
+                TỐC ĐỘ <br />
+                <span className="num">22</span> <span>hải lý mỗi giờ</span>
               </p>
             </div>
           </div>

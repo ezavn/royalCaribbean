@@ -8,7 +8,7 @@ export default function Luxury() {
         <Heading center>NGHỈ DƯỠNG SANG TRỌNG</Heading>
         <p className="mx-[15px] max-w-[725px] md:mx-auto text-justify md:text-center mt-[15px] md:mt-[30px] text-[18px] mb-[20px] md:mb-[40px]">
           Phòng nghỉ{" "}
-          <span className="font-bold text-darkOrange uppercase">
+          <span className="font-bold uppercase text-darkOrange">
             đẳng cấp 5 sao
           </span>{" "}
           thượng lưu, quy mô lớn với nhiều hạng phòng khác nhau{" "}
@@ -23,10 +23,22 @@ export default function Luxury() {
           .
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4">
-          <LuxuryItem img="/images/luxury1.png" title="INTERIOR"></LuxuryItem>
-          <LuxuryItem img="/images/luxury2.png" title="OCEAN VIEW"></LuxuryItem>
-          <LuxuryItem img="/images/luxury3.png" title="BALCONY"></LuxuryItem>
-          <LuxuryItem img="/images/luxury4.png" title="SUITE"></LuxuryItem>
+          <LuxuryItem
+            img="/images/luxury1.png"
+            title="PHÒNG INTERIOR"
+          ></LuxuryItem>
+          <LuxuryItem
+            img="/images/luxury2.png"
+            title="PHÒNG OCEAN VIEW"
+          ></LuxuryItem>
+          <LuxuryItem
+            img="/images/luxury3.png"
+            title="PHÒNG BALCONY"
+          ></LuxuryItem>
+          <LuxuryItem
+            img="/images/luxury4.png"
+            title="PHÒNG SUITE"
+          ></LuxuryItem>
         </div>
       </div>
     </section>
@@ -36,8 +48,8 @@ export default function Luxury() {
 const LuxuryItem = ({ img, title }) => {
   return (
     <div className="relative">
-      <img className="w-full h-full object-cover" src={img} alt="" />
-      <p className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-bold text-[15px] md:text-[32px] text-white">
+      <img className="object-cover w-full h-full" src={img} alt="" />
+      <p className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-bold text-[15px] md:text-[24px] text-white w-full text-center">
         {title}
       </p>
     </div>

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-darkBlue">
       <div className="page-container py-sectionMB md:py-section">
         <div className="flex md:flex-row flex-col gap-[30px] md:gap-0 items-start justify-between">
-          <div>
+          <div className="w-[100%] flex flex-col items-center md:block md:w-auto">
             <div className="mb-[15px] md:mb-[30px]">
               <img srcSet="/images/logo.png 2x" alt="" />
             </div>

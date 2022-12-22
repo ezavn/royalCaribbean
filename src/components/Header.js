@@ -40,9 +40,6 @@ export default function Header() {
         </a>
         <ul className="md:flex nav">
           <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
             <a href="#intro">Giới thiệu chung</a>
           </li>
           <li>
@@ -79,12 +76,6 @@ export default function Header() {
       <div className="progressBar" ref={progressRef}></div>
       {showNav ? (
         <ul className="text-white items-center justify-center p-[10px] flex flex-col md:hidden absolute top-[100%] left-0 right-0 bg-black">
-          <li
-            onClick={() => setShowNav(false)}
-            className="border-b border-dotted w-full text-center pb-[10px] mb-[10px]"
-          >
-            <a href="/">Home</a>
-          </li>
           <li
             onClick={() => setShowNav(false)}
             className="border-b border-dotted w-full text-center pb-[10px] mb-[10px]"

@@ -23,7 +23,7 @@ export default function Relax() {
           ></RelaxItem>
           <RelaxItem
             img="/images/relax2.png"
-            title="Ripcord by iFly"
+            title="Bay cùng Ripcord by iFly"
           ></RelaxItem>
           <RelaxItem
             img="/images/relax3.png"
@@ -41,7 +41,10 @@ export default function Relax() {
             img="/images/relax6.png"
             title="Leo núi nhân tạo"
           ></RelaxItem>
-          <RelaxItem img="/images/relax7.png" title="Star Moment"></RelaxItem>
+          <RelaxItem
+            img="/images/relax7.png"
+            title="Star Moment Karaoke"
+          ></RelaxItem>
         </div>
       </div>
     </section>
@@ -54,7 +57,7 @@ const RelaxItem = ({ title, img }) => {
       <div className="overlay"></div>
       <div className="overlay2"></div>
       <img className="img" src={img} alt="" />
-      <div className="absolute bottom-[10px] md:bottom-[20px] left-[15px]">
+      <div className="absolute top-[60%] md:top-[70%] left-[5px] md:left-[15px]">
         <div className="flex gap-[5px] md:mb-[10px]">
           <span>
             <img srcSet="/icons/star-icon.png 2x" alt="" />

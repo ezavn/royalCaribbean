@@ -4,7 +4,7 @@ import RegisterForm from "./common/RegisterForm";
 export default function Register() {
   return (
     <section id="register-form" className="flex md:flex-row flex-col mb-[10px]">
-      <div className="bg-darkBlue py-[50px] md:pt-[62px] md:pb-[95px] flex-1">
+      <div className="bg-darkBlue py-[50px] md:pt-[62px] md:pb-[95px] flex-1 md:block hidden">
         <div className="max-w-[450px] mx-auto">
           <div className="flex items-center justify-center">
             <img src="/images/register-txt1.png" alt="" />
