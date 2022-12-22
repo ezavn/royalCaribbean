@@ -24,7 +24,7 @@ export default function PopupDay5() {
                 <div>
                   <img
                     className="w-full max-h-[340px]"
-                    src="/images/day4.png"
+                    src="/images/day5.png"
                     alt=""
                   />
                 </div>
@@ -85,7 +85,7 @@ export default function PopupDay5() {
                       thúc chương trình trải nghiệm du thuyền Spectrum Of The
                       Seas.
                     </li>
-                    <li className="text-red-500 font-bold italic">
+                    <li className="italic font-bold text-red-500">
                       Chia tay và hẹn gặp lại quý khách!
                     </li>
                   </ol>
