@@ -14,7 +14,7 @@ export default function Services() {
               PHONG PHÚ, <br className="hide-mb" />
               ĐỘC ĐÁO
             </Heading>
-            <p className="text-[18px] text-justify md:text-left mb-[15px] md:mb-0">
+            <p className="text-[14px] md:text-[18px] text-justify md:text-left mb-[15px] md:mb-0">
               Ẩm thực tiêu chuẩn quốc tế, đa dạng, phong phú với{" "}
               <br className="hide-mb" /> hơn{" "}
               <span className="font-bold text-purple">25 nhà hàng Á-Âu</span>,

@@ -6,7 +6,7 @@ export default function Luxury() {
     <section className="pt-sectionMB md:pt-0">
       <div>
         <Heading center>NGHỈ DƯỠNG SANG TRỌNG</Heading>
-        <p className="mx-[15px] max-w-[725px] md:mx-auto text-justify md:text-center mt-[15px] md:mt-[30px] text-[18px] mb-[20px] md:mb-[40px]">
+        <p className="mx-[15px] max-w-[725px] md:mx-auto text-justify md:text-center mt-[15px] md:mt-[30px] text-[14px] md:text-[18px] mb-[20px] md:mb-[40px]">
           Phòng nghỉ{" "}
           <span className="font-bold uppercase text-darkOrange">
             đẳng cấp 5 sao
