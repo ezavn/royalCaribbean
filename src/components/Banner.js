@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <section className="bg-[url('../public/images/banner.png')] bg-center bg-no-repeat bg-cover h-[100vh] md:pt-[130px] pt-[100px]">
+    <section className="bg-[url('../public/images/banner.png')] bg-center bg-no-repeat bg-cover h-[100vh] md:pt-[100px] pt-[100px]">
       <div className="page-container max-w-[670px] flex flex-col items-center">
         <p className="text-[20px] md:text-[30px] font-medium uppercase text-center text-white leading-[1]">
           hải trình
