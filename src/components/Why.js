@@ -14,9 +14,9 @@ export default function Why() {
         >
           SPECTRUM OF THE SEAS?
         </Heading>
-        <div className="flex md:flex-row flex-col items-start gap-[25px] md:gap-[30px]">
+        <div className="flex md:flex-row flex-col items-center gap-[25px] md:gap-[30px]">
           <div className="flex-1">
-            <p className="text-[16px] md:text-[18px] text-lightBlue2 mb-[10px] md:mb-[20px]">
+            {/* <p className="text-[16px] md:text-[18px] text-lightBlue2 mb-[10px] md:mb-[20px]">
               About Spectrum of the Seas
             </p>
             <p className="text-[32px] md:text-[48px] font-bold text-blue uppercase leading-[1]">
@@ -27,17 +27,23 @@ export default function Why() {
             <p className="font-medium text-[#3f3f3f] text-[18px] md:text-[20px] leading-[1.2] mb-[15px] md:mb-[30px]">
               thuộc hãng{" "}
               <span className="text-[32px] md:text-[48px] font-bold text-yellow">
-                Royal Carribean
+                Royal Caribbean
               </span>{" "}
               thương hiệu tàu biển lớn nhất thế giới
-            </p>
+            </p> */}
             <ol>
-              <li className="font-light text-grey mb-[15px] md:mb-[30px]">
+              {/* <li className="font-light text-grey mb-[15px] md:mb-[30px]">
                 Siêu du thuyền{" "}
                 <span className="font-bold">Spectrum of the Seas</span> thuộc
                 dòng <span className="font-bold">Quantum Ultra Class</span> của{" "}
                 <span className="font-bold">Royal Caribbean</span>, lần đầu tiên
                 được thiết kế hướng đến khách hàng Châu Á.
+              </li> */}
+              <li className="font-light text-grey mb-[15px] md:mb-[30px]">
+                <span className="font-bold">Spectrum of the Seas</span> là Siêu
+                du thuyền thuộc dòng Quantum Ultra Class của Royal Caribbean -
+                thương hiệu tàu biển lớn nhất thế giới, lần đầu tiên được thiết
+                kế hướng đến khách hàng Châu Á.
               </li>
               <li className="font-light text-grey mb-[15px] md:mb-[30px]">
                 <span className="font-bold">Spectrum of the Seas</span> là hiện
@@ -64,8 +70,17 @@ export default function Why() {
               </div>
             </div>
           </div>
-          <div className="relative md:w-[590px] md:h-[590px] flex-shrink-0">
-            <img
+          <div className="relative flex-shrink-0 video-spec">
+            <iframe
+              width="500"
+              height="280"
+              src="https://www.youtube.com/embed/Po1hc0NLEro?autoplay=1&loop=1&playlist=Po1hc0NLEro&mute=1&rel=0"
+              title="Spectrum of the Seas Experience"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              allowfullscreen="true"
+            ></iframe>
+            {/* <img
               className="object-cover w-full h-full"
               src="/images/video-bg.png"
               alt=""
@@ -76,7 +91,7 @@ export default function Why() {
                 srcSet="/icons/video-icon.png 2x"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

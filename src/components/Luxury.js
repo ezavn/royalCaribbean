@@ -47,7 +47,7 @@ export default function Luxury() {
 
 const LuxuryItem = ({ img, title }) => {
   return (
-    <div className="relative">
+    <div className="relative luxury-item">
       <img className="object-cover w-full h-full" src={img} alt="" />
       <p className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-bold text-[15px] md:text-[24px] text-white w-full text-center">
         {title}

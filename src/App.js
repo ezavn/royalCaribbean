@@ -34,7 +34,7 @@ function App() {
         <Trip></Trip>
         <Register></Register>
         <Gallery></Gallery>
-        <Testimonial></Testimonial>
+        {/* <Testimonial></Testimonial> */}
         <Footer></Footer>
         <VideoPopup></VideoPopup>
         <PopupDay1></PopupDay1>
