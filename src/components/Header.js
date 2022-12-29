@@ -1,9 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-scroll";
 
 export default function Header() {
   const headerRef = useRef(null);
   const progressRef = useRef(null);
   const [showNav, setShowNav] = useState(false);
+  console.log(showNav);
   useEffect(() => {
     let headerHeight = 0;
     const changeHeaderBG = () => {
@@ -36,26 +38,59 @@ export default function Header() {
     >
       <div className="page-container py-[15px] flex items-center justify-between">
         <a href="/">
-          <img srcSet="/images/logo.png 2x" alt="" />
+          <img
+            className="w-[230px] h-[55px]"
+            srcSet="/images/spectrum-logo.png 2x"
+            alt=""
+          />
         </a>
         <ul className="md:flex nav">
-          <li>
-            <a href="#intro">Giới thiệu chung</a>
+          <li className="cursor-pointer">
+            <Link
+              to="intro"
+              spy={true}
+              smooth={true}
+              offset={-60}
+              duration={500}
+            >
+              Giới thiệu chung
+            </Link>
           </li>
-          <li>
-            <a href="#trip">Lịch trình Tour</a>
+          <li className="cursor-pointer">
+            <Link
+              to="trip"
+              spy={true}
+              smooth={true}
+              offset={-85}
+              duration={500}
+            >
+              Lịch trình Tour
+            </Link>
           </li>
-          <li>
-            <a href="#testi">Ý kiến khách hàng</a>
+          <li className="cursor-pointer">
+            <Link
+              to="testi"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Ý kiến khách hàng
+            </Link>
           </li>
         </ul>
         <div>
-          <a
+          <Link
+            to="register-form"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={700}
             className="hidden md:inline-flex items-center justify-center h-[50px] px-[38px] bg-pink text-[15px] font-rubik font-light text-white"
             href="#register-form"
           >
             ĐĂNG KÝ NGAY
-          </a>
+          </Link>
         </div>
         {!showNav ? (
           <div
@@ -76,20 +111,41 @@ export default function Header() {
       <div className="progressBar" ref={progressRef}></div>
       {showNav ? (
         <ul className="text-white items-center justify-center p-[10px] flex flex-col md:hidden absolute top-[100%] left-0 right-0 bg-black">
-          <li
-            onClick={() => setShowNav(false)}
-            className="border-b border-dotted w-full text-center pb-[10px] mb-[10px]"
-          >
-            <a href="#intro">Giới thiệu chung</a>
+          <li className="border-b border-dotted w-full text-center pb-[10px] mb-[10px]">
+            <Link
+              to="intro"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onClick={() => setShowNav(false)}
+            >
+              Giới thiệu chung
+            </Link>
           </li>
-          <li
-            onClick={() => setShowNav(false)}
-            className="border-b border-dotted w-full text-center pb-[10px] mb-[10px]"
-          >
-            <a href="#trip">Lịch trình Tour</a>
+          <li className="border-b border-dotted w-full text-center pb-[10px] mb-[10px]">
+            <Link
+              to="trip"
+              spy={true}
+              smooth={true}
+              offset={-60}
+              duration={500}
+              onClick={() => setShowNav(false)}
+            >
+              Lịch trình Tour
+            </Link>
           </li>
           <li onClick={() => setShowNav(false)}>
-            <a href="#testi">Ý kiến khách hàng</a>
+            <Link
+              to="testi"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={() => setShowNav(false)}
+            >
+              Ý kiến khách hàng
+            </Link>
           </li>
         </ul>
       ) : (

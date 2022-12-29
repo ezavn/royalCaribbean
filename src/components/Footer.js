@@ -7,7 +7,11 @@ export default function Footer() {
         <div className="flex md:flex-row flex-col gap-[30px] md:gap-0 items-start justify-between">
           <div className="w-[100%] flex flex-col items-center md:block md:w-auto">
             <div className="mb-[15px] md:mb-[30px]">
-              <img srcSet="/images/logo.png 2x" alt="" />
+              <img
+                className="w-[230px] h-[55px]"
+                srcSet="/images/spectrum-logo.png 2x"
+                alt=""
+              />
             </div>
             <ul className="font-light text-white mb-[15px] md:mb-[30px]">
               <li>
@@ -19,7 +23,7 @@ export default function Footer() {
               <li>
                 Email:{" "}
                 <a href="mailto:info@goldenstartravel.vn">
-                  info@goldenstartravel.vn
+                  sales2@goldenstartravel.vn
                 </a>
               </li>
               <li>
@@ -83,15 +87,9 @@ export default function Footer() {
                 </div>
                 <a
                   className="inline-block font-light text-white"
-                  href="mailto:Support@royalsaigon.com"
+                  href="mailto:sales2@goldenstartravel.vn"
                 >
-                  Support@royalsaigon.com
-                </a>
-                <a
-                  className="inline-block font-light text-white"
-                  href="mailto:info@royalsaigon.com"
-                >
-                  info@royalsaigon.com
+                  sales2@goldenstartravel.vn
                 </a>
               </div>
             </div>
