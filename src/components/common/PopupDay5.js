@@ -7,7 +7,7 @@ export default function PopupDay5() {
     <>
       {showDayFive ? (
         <div className="overlay-days">
-          <div className="md:mx-0 max-w-[560px] w-full relative mb-[50px] top-[20px] left-[50%] translate-x-[-50%]">
+          <div className="md:mx-0 max-w-[560px] w-full relative mb-[50px] top-[20px] left-[50%] translate-x-[-50%] popup-days --five">
             <div className="bg-orange p-[16px] flex items-baseline gap-[30px] justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
                 NGÀY 5: SINGAPORE – TP.HCM

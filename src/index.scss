@@ -191,6 +191,26 @@
   }
 }
 
+.popup-days {
+  border: 5px solid;
+  border-image-slice: 1;
+  &.--one {
+    border-image-source: linear-gradient(to bottom, #00f5a0, #00d9f5, #7268f8);
+  }
+  &.--two {
+    border-image-source: linear-gradient(to bottom, #439cfb, #86fde8, #f187fb);
+  }
+  &.--three {
+    border-image-source: linear-gradient(to bottom, #c73ca9, #00d9f5, #7268f8);
+  }
+  &.--four {
+    border-image-source: linear-gradient(to bottom, #f6d87c, #86fde8, #f187fb);
+  }
+  &.--five {
+    border-image-source: linear-gradient(to bottom, #f46f37, #00d9f5, #7268f8);
+  }
+}
+
 .relax {
   &-item {
     overflow: hidden;

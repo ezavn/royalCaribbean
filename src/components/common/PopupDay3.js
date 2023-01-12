@@ -7,7 +7,7 @@ export default function PopupDay3() {
     <>
       {showDayThree ? (
         <div className="overlay-days">
-          <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%]">
+          <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%] popup-days --three">
             <div className="bg-purple p-[16px] flex items-center justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
                 NGÀY 3: PHUKET (THAILAND)
