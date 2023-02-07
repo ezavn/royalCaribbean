@@ -22,18 +22,34 @@ export default function Services() {
               miễn thuế trên đại dương
             </p>
           </div>
-          <div className="max-w-[680px] flex-shrink-0 grid grid-cols-2 gap-[15px]">
+          <div className="max-w-[680px] flex-shrink-0 grid md:grid-cols-2 gap-[15px]">
             <div className="service-item">
-              <img src="/images/service1.png" alt="" />
+              <img
+                className="max-h-[300px] h-full"
+                src="/images/services1.jpg"
+                alt=""
+              />
             </div>
             <div className="service-item">
-              <img src="/images/service2.png" alt="" />
+              <img
+                className="max-h-[300px] h-full"
+                src="/images/services2.jpg"
+                alt=""
+              />
             </div>
             <div className="service-item">
-              <img src="/images/service3.png" alt="" />
+              <img
+                className="max-h-[300px] h-full"
+                src="/images/services3.jpg"
+                alt=""
+              />
             </div>
             <div className="service-item">
-              <img src="/images/service4.png" alt="" />
+              <img
+                className="max-h-[300px] h-full"
+                src="/images/services4.jpg"
+                alt=""
+              />
             </div>
           </div>
         </div>

@@ -5,7 +5,6 @@ export default function Header() {
   const headerRef = useRef(null);
   const progressRef = useRef(null);
   const [showNav, setShowNav] = useState(false);
-  console.log(showNav);
   useEffect(() => {
     let headerHeight = 0;
     const changeHeaderBG = () => {

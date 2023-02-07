@@ -26,7 +26,7 @@ export default function Banner() {
           SPECTRUM{" "}
           <span className="italic text-[18px] md:text-[36px]">OF THE</span> SEAS
         </h3>
-        <div className="flex flex-col-reverse md:flex-row items-center gap-[30px] md:gap-[38px] mb-[50px]">
+        <div className="mt-[30px] md:mt-0 flex flex-col-reverse md:flex-row items-center gap-[30px] md:gap-[38px] mb-[50px]">
           <div className="flex items-center gap-[20px]">
             <div className="banner-item">
               <img srcSet="/images/sin.png 2x" alt="" />
@@ -41,14 +41,14 @@ export default function Banner() {
               <div className="content bg-purple">Phuket</div>
             </div>
           </div>
-          <div className="tracking-[1px] self-start">
+          {/* <div className="tracking-[1px] self-start">
             <p className="text-left md:text-center text-[16px] md:text-[24px] text-white">
               Dự kiến khởi hành
             </p>
             <p className="text-left md:text-center text-[32px] md:text-[40px] font-bold text-[#78FFFF] leading-[1]">
               30/03/2023
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="relative btn-banner ml-[15px]">
           <div className="circle absolute top-[-16px] left-[-16px] w-[56px] h-[56px] bg-[#0791BE] rounded-full"></div>

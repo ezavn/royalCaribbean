@@ -3,7 +3,7 @@ import React from "react";
 export default function Gallery() {
   return (
     <section className="mb-[10px]">
-      <div className="grid grid-cols-3">
+      <div className="grid md:grid-cols-3">
         <div className="gallery-item">
           <img
             className="object-cover w-full h-full"
@@ -26,7 +26,7 @@ export default function Gallery() {
           />
         </div>
       </div>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-2 md:grid-cols-4">
         <div className="gallery-item">
           <img
             className="object-cover w-full h-full"

@@ -19,9 +19,9 @@ export default function VideoPopup() {
               height="538"
               src="https://www.youtube.com/embed/Po1hc0NLEro?rel=0&autoplay=1"
               title="Spectrum of the Seas Experience"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-              allowfullscreen="true"
+              allowFullScreen="true"
             ></iframe>
           </div>
         </div>

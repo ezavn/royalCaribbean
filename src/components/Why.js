@@ -76,9 +76,9 @@ export default function Why() {
               height="280"
               src="https://www.youtube.com/embed/Po1hc0NLEro?autoplay=1&loop=1&playlist=Po1hc0NLEro&mute=1&rel=0"
               title="Spectrum of the Seas Experience"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-              allowfullscreen="true"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+              allowFullScreen="allowfullscreen"
             ></iframe>
             {/* <img
               className="object-cover w-full h-full"

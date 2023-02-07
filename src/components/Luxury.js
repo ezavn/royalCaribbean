@@ -1,7 +1,14 @@
 import React from "react";
+import { usePopup } from "../contexts/popupContext";
 import Heading from "./common/Heading";
 
 export default function Luxury() {
+  const {
+    setShowLuxuryOne,
+    setShowLuxuryTwo,
+    setShowLuxuryThree,
+    setShowLuxuryFour,
+  } = usePopup();
   return (
     <section className="pt-sectionMB md:pt-0">
       <div>
@@ -26,18 +33,22 @@ export default function Luxury() {
           <LuxuryItem
             img="/images/luxury1.png"
             title="PHÒNG INTERIOR"
+            onClick={() => setShowLuxuryOne(true)}
           ></LuxuryItem>
           <LuxuryItem
             img="/images/luxury2.png"
             title="PHÒNG OCEAN VIEW"
+            onClick={() => setShowLuxuryTwo(true)}
           ></LuxuryItem>
           <LuxuryItem
             img="/images/luxury3.png"
             title="PHÒNG BALCONY"
+            onClick={() => setShowLuxuryThree(true)}
           ></LuxuryItem>
           <LuxuryItem
             img="/images/luxury4.png"
             title="PHÒNG SUITE"
+            onClick={() => setShowLuxuryFour(true)}
           ></LuxuryItem>
         </div>
       </div>
@@ -45,9 +56,9 @@ export default function Luxury() {
   );
 }
 
-const LuxuryItem = ({ img, title }) => {
+const LuxuryItem = ({ img, title, onClick = () => {} }) => {
   return (
-    <div className="relative luxury-item">
+    <div onClick={onClick} className="relative cursor-pointer luxury-item">
       <img className="object-cover w-full h-full" src={img} alt="" />
       <p className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-bold text-[15px] md:text-[24px] text-white w-full text-center">
         {title}

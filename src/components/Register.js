@@ -10,7 +10,7 @@ export default function Register() {
             <img src="/images/register-txt1.png" alt="" />
           </div>
           <div className="flex items-center justify-center">
-            <img src="/images/register-txt2.png" alt="" />
+            <img srcSet="/images/register-txt2.png 2x" alt="" />
           </div>
           <p className="text-[20px] text-white text-center mb-[10px]">
             Singapore – Penang – Phuket
