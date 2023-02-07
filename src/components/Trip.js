@@ -35,7 +35,7 @@ export default function Trip() {
           <p className="text-[16px] md:text-[20px] font-medium text-white">
             Dự kiến khởi hành:{" "}
             <span className="text-[24px] md:text-[32px] font-semibold text-orange">
-              30/03/2023
+              Thứ Năm Hàng Tuần
             </span>
           </p>
         </div>
