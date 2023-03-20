@@ -4,7 +4,7 @@ export default function Relax() {
   return (
     <section className="relax md:bg-[url('../public/images/relax-bg.png')] bg-center bg-no-repeat bg-cover md:py-section py-sectionMB">
       <div className="page-container">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-[8px]">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-[8px]">
           <div className="flex flex-col justify-center">
             <p className="text-[18px] md:text-[36px] font-bold text-white">
               GIẢI TRÍ <br />
@@ -56,7 +56,7 @@ const RelaxItem = ({ title, img }) => {
     <div className="relax-item relative border-[6px] border-[rgba(255,255,255,0.1)]">
       <div className="overlay"></div>
       <div className="overlay2"></div>
-      <img className="img" src={img} alt="" />
+      <img className="w-full h-full img" src={img} alt="" />
       <div className="absolute top-[60%] md:top-[70%] left-[5px] md:left-[15px]">
         <div className="flex gap-[5px] md:mb-[10px]">
           <span>
