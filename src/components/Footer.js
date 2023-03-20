@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer className="bg-darkBlue">
       <div className="page-container py-sectionMB md:py-section">
-        <div className="flex md:flex-row flex-col gap-[30px] md:gap-0 items-start justify-between">
-          <div className="w-[100%] flex flex-col items-center md:block md:w-auto">
+        <div className="flex flex-col items-start justify-between gap-0 lg:flex-row">
+          <div className="w-[100%] flex flex-col items-center mb-[40px] lg:mb-0 lg:block lg:w-auto">
             <div className="mb-[15px] md:mb-[30px]">
               <img
                 className="w-[230px] h-[55px]"

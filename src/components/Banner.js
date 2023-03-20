@@ -3,7 +3,7 @@ import React from "react";
 export default function Banner() {
   return (
     <section className="bg-[url('../public/images/banner.png')] bg-center bg-no-repeat bg-cover h-[100vh] md:pt-[100px] pt-[100px]">
-      <div className="flex flex-col items-start justify-center page-container">
+      <div className="flex flex-col items-start justify-center page-container mt-[70px] md:mt-[120px] lg:mt-0">
         <p className="md:mt-[20px] text-[20px] md:text-[30px] font-medium uppercase text-center text-white leading-[1]">
           hải trình
         </p>

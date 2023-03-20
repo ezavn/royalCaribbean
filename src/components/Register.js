@@ -48,8 +48,8 @@ export default function Register() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('../public/images/register-bg.png')] bg-right md:bg-center bg-no-repeat bg-cover py-[55px] flex-1 md:pl-[30px] md:pr-0 px-[15px]">
-        <div className="md:mr-[250px]">
+      <div className="bg-[url('../public/images/register-bg.png')] bg-right md:bg-center bg-no-repeat bg-cover py-[55px] flex-1 md:pl-[30px] lg:pr-[15px] px-[15px]">
+        <div className="lg:mr-[250px]">
           <h3 className="text-[24px] font-bold text-white">
             ĐĂNG KÝ TƯ VẤN THÔNG TIN
           </h3>

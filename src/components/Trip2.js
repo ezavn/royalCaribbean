@@ -7,7 +7,7 @@ export default function Trip2() {
   return (
     <section
       id="trip"
-      className="md:mb-[54px] bg-[url('../public/images/trip-bg.png')] bg-center bg-no-repeat bg-cover md:pt-section pt-sectionMB pb-sectionMB md:pb-0"
+      className="md:mb-[54px] bg-[url('../public/images/trip-bg.png')] bg-center bg-no-repeat bg-cover md:pt-section pt-sectionMB pb-sectionMB lg:pb-0"
     >
       <div className="page-container flex md:flex-row flex-col items-center pb-[30px] md:pb-[105px] justify-center">
         <div className="text-center">
@@ -34,7 +34,7 @@ export default function Trip2() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-[10px] px-[10px]">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-[10px] px-[10px]">
         <TripItem
           img="/images/trip1.png"
           day="ngày 1"
@@ -108,7 +108,7 @@ const TripItem = ({
       </div>
       <div
         onClick={onClick}
-        className={`inline-flex items-center justify-center w-full font-light text-white cursor-pointer h-[30px] md:h-[45px] md:absolute bottom-[-44px] left-0 z-[5] ${
+        className={`inline-flex items-center justify-center w-full font-light text-white cursor-pointer h-[30px] md:h-[45px] lg:absolute bottom-[-44px] left-0 z-[5] ${
           green ? "bg-green" : ""
         } ${blue ? "bg-popupBlue" : ""} ${purple ? "bg-purple" : ""} ${
           yellow ? "bg-popupYellow" : ""

@@ -5,18 +5,18 @@ export default function Services() {
   return (
     <section className="py-sectionMB md:py-section">
       <div className="page-container">
-        <div className="flex md:flex-row flex-col items-center mb-[30px] md:mb-[60px]">
+        <div className="flex lg:flex-row flex-col items-center mb-[30px] md:mb-[60px]">
           <div className="flex-1">
             <Heading
               sup="DICH VỤ ĂN UỐNG"
-              className="mb-[15px] md:mb-[30px] text-center md:text-left"
+              className="mb-[15px] lg:mb-[30px] text-center lg:text-left"
             >
-              PHONG PHÚ, <br className="hide-mb" />
+              PHONG PHÚ, <br className="hide-lg" />
               ĐỘC ĐÁO
             </Heading>
-            <p className="text-[14px] md:text-[18px] text-justify md:text-left mb-[15px] md:mb-0">
+            <p className="text-[14px] lg:text-[18px] text-justify md:text-center lg:text-left mb-[15px] lg:mb-0">
               Ẩm thực tiêu chuẩn quốc tế, đa dạng, phong phú với{" "}
-              <br className="hide-mb" /> hơn{" "}
+              <br className="hide-lg" /> hơn{" "}
               <span className="font-bold text-purple">25 nhà hàng Á-Âu</span>,
               quán bar và lounge sành điệu, <br className="hide-mb" /> mua sắm
               miễn thuế trên đại dương

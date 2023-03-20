@@ -369,6 +369,12 @@ header.active {
   }
 }
 
+.hide-lg {
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
 .hide-mb {
   @media (max-width: 767px) {
     display: none;

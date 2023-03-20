@@ -11,7 +11,7 @@ export default function Scale() {
         <div className="mb-[20px] md:mb-0">
           <img srcSet="/images/scale-boat.png 2x" alt="" />
         </div>
-        <div className="scale-list grid grid-cols-3 md:flex items-start md:mx-[120px] justify-between gap-[20px]">
+        <div className="scale-list grid grid-cols-3 md:flex items-start lg:mx-[120px] justify-between gap-[20px]">
           <div className="scale-item">
             <div className="icon">
               <img srcSet="/icons/scale-icon1.png 2x" alt="" />

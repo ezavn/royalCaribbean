@@ -43,7 +43,7 @@ export default function Header() {
             alt=""
           />
         </a>
-        <ul className="md:flex nav">
+        <ul className="lg:flex nav">
           <li className="cursor-pointer">
             <Link
               to="intro"
@@ -85,7 +85,7 @@ export default function Header() {
             smooth={true}
             offset={-80}
             duration={700}
-            className="hidden md:inline-flex items-center justify-center h-[50px] px-[38px] bg-pink text-[15px] font-rubik font-light text-white"
+            className="hidden lg:inline-flex items-center justify-center h-[50px] px-[38px] bg-pink text-[15px] font-rubik font-light text-white"
             href="#register-form"
           >
             ĐĂNG KÝ NGAY
@@ -100,7 +100,7 @@ export default function Header() {
           </div>
         ) : (
           <div
-            className="inline-block md:hidden w-[20px] h-[20px]"
+            className="inline-block lg:hidden w-[20px] h-[20px]"
             onClick={() => setShowNav(false)}
           >
             <img srcSet="/icons/popup-close.png" alt="" />
@@ -109,7 +109,7 @@ export default function Header() {
       </div>
       <div className="progressBar" ref={progressRef}></div>
       {showNav ? (
-        <ul className="text-white items-center justify-center p-[10px] flex flex-col md:hidden absolute top-[100%] left-0 right-0 bg-black">
+        <ul className="text-white items-center justify-center p-[10px] flex flex-col lg:hidden absolute top-[100%] left-0 right-0 bg-black">
           <li className="border-b border-dotted w-full text-center pb-[10px] mb-[10px]">
             <Link
               to="intro"
