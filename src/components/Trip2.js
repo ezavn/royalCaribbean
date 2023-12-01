@@ -26,12 +26,12 @@ export default function Trip2() {
             <span className="text-pink">Singapore</span> –{" "}
             <span className="text-[#E16C37]">Penang</span>
           </p>
-          <p className="text-[16px] md:text-[20px] font-medium text-white">
+          {/* <p className="text-[16px] md:text-[20px] font-medium text-white">
             Dự kiến khởi hành:{" "}
             <span className="text-[24px] md:text-[32px] font-semibold text-orange">
               Thứ Hai Hàng Tuần
             </span>
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-[10px] px-[10px]">

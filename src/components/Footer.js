@@ -68,7 +68,7 @@ export default function Footer() {
                   <img srcSet="/icons/map-icon.png 2x" alt="" />
                 </div>
                 <p className="font-light text-white">
-                  29 Nguyễn Trãi, Phường Bến Thành, <br /> Quận 1, TPHCM
+                  82 Phan Đình Phùng, P.2, Q.Phú Nhuận, TP.HCM
                 </p>
               </div>
               <div className="py-[18px] flex items-center text-center border border-dashed border-[rgba(241,241,241,0.34)] flex-col px-[10px] min-w-[230px]">
@@ -77,7 +77,7 @@ export default function Footer() {
                 </div>
                 <p className="font-light text-white">
                   Mr. Huỳnh Di: 0937.19.68.99 / <br />
-                  Ms. Yến: 0943.560.900 / <br />
+                  Mr. Thịnh: 0931.867.139 / <br />
                   Ms. Ly 0931.288.639 / Zalo 0937.612.701
                 </p>
               </div>
@@ -98,7 +98,7 @@ export default function Footer() {
       </div>
       <div className="w-full bg-[rgba(251,251,251,0.07)] py-[17px]">
         <p className="font-light text-center text-white">
-          2022 RoyalSaigon. All rights reserved.
+          RoyalSaigon. All rights reserved.
         </p>
       </div>
     </footer>

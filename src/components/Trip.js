@@ -32,12 +32,12 @@ export default function Trip() {
             <span className="text-[#E16C37]">Penang</span> –{" "}
             <span className="text-[#82CCEF]">Phuket</span>
           </p>
-          <p className="text-[16px] md:text-[20px] font-medium text-white">
+          {/* <p className="text-[16px] md:text-[20px] font-medium text-white">
             Dự kiến khởi hành:{" "}
             <span className="text-[24px] md:text-[32px] font-semibold text-orange">
               Thứ Năm Hàng Tuần
             </span>
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-5 gap-[10px] px-[10px]">
