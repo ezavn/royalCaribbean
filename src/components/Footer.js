@@ -23,7 +23,7 @@ export default function Footer() {
               <li>
                 Email:{" "}
                 <a href="mailto:info@goldenstartravel.vn">
-                  sales2@goldenstartravel.vn
+                  info@goldenstartravel.vn
                 </a>
               </li>
               <li>
@@ -68,7 +68,18 @@ export default function Footer() {
                   <img srcSet="/icons/map-icon.png 2x" alt="" />
                 </div>
                 <p className="font-light text-white">
-                  82 Phan Đình Phùng, P.2, Q.Phú Nhuận, TP.HCM
+                  82 Phan Đình Phùng, Phường 2<br/>Quận Phú Nhuận, TP.HCM
+                </p>
+              </div>
+              <div className="py-[18px] flex items-center text-center border border-dashed border-[rgba(241,241,241,0.34)] flex-col px-[10px] min-w-[230px]">
+                <div className="mb-[18px]">
+                  <img srcSet="/icons/headphone-icon2.png 2x" alt="" />
+                </div>
+                <br/>
+                <p
+                  className="inline-block font-light text-white"
+                >
+                  02835.178.999
                 </p>
               </div>
               <div className="py-[18px] flex items-center text-center border border-dashed border-[rgba(241,241,241,0.34)] flex-col px-[10px] min-w-[230px]">
@@ -76,21 +87,10 @@ export default function Footer() {
                   <img srcSet="/icons/office-icon.png 2x" alt="" />
                 </div>
                 <p className="font-light text-white">
-                  Mr. Huỳnh Di: 0937.19.68.99 / <br />
-                  Mr. Thịnh: 0931.867.139 / <br />
-                  Ms. Ly 0931.288.639 / Zalo 0937.612.701
+                  Mr. Huỳnh Di: 0937.19.68.99 <br />
+                  Mr. Thịnh: 0931.867.139 <br />
+                  Ms. Ly: 0931.288.639
                 </p>
-              </div>
-              <div className="py-[18px] flex items-center text-center border border-dashed border-[rgba(241,241,241,0.34)] flex-col px-[10px] min-w-[230px]">
-                <div className="mb-[18px]">
-                  <img srcSet="/icons/headphone-icon2.png 2x" alt="" />
-                </div>
-                <a
-                  className="inline-block font-light text-white"
-                  href="mailto:sales2@goldenstartravel.vn"
-                >
-                  sales2@goldenstartravel.vn
-                </a>
               </div>
             </div>
           </div>
